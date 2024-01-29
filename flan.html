@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon2.png" type="">
+
+  <title> Emmiam </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="images/logo-V1.png" class="logo-emmiam" alt="Logo emmiam">
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Abonne toi <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nos box</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="flan.html">Flan</a></li>
+
+                    <li><a class="dropdown-item" href="#!">Recette 2</a></li>
+                    <li><a class="dropdown-item" href="#!">Recette 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#histoire"> Notre Histoire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pourquoi">Pourquoi Nous</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> S'enregistrer</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+        <!-- Product section-->
+        <section class="py-5 recette">
+          <div class="container px-4 px-lg-5 my-5">
+              <div class="row gx-4 gx-lg-5 align-items-center">
+                  <div class="col-md-6">
+                    <img class="card-img-top mb-5 mb-md-0 recette-image" src="https://i0.wp.com/cuisinemicheline.com/wp-content/uploads/2021/03/FC_20210304_0013.jpg?resize=2000%2C2000" alt="flan-image" />
+                  </div>
+                  <div class="col-md-6">
+                      <div class="small mb-1">Em'miam</div>
+                      <h1 class="display-5 fw-bolder">Flan marbré</h1>
+                      <div class="fs-5 mb-5">
+                          <span class="text-decoration-line-through">&euro;45.00</span>
+                            <span class="bold">&euro;25.00</span>
+                      </div>
+                      <p class="lead">
+                        Le flan marbré est une délicieuse pâtisserie qui associe la douceur d'un flan à la saveur irrésistible d'un marbrage subtil.
+                         Sa texture moelleuse et onctueuse, enrichie d'une alternance de couches de flan vanillé et de délicieux tourbillons de chocolat, 
+                         crée une expérience gustative harmonieuse. Chaque bouchée révèle un équilibre parfait entre la simplicité 
+                        réconfortante de la vanille et l'intensité gourmande du chocolat, faisant du flan marbré une douceur exquise qui séduit les amateurs de desserts.</p>
+                      <div class="d-flex">
+                        <a href="#personnalise">
+                          <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                              <i class="bi-cart-fill me-1"></i>
+                              Crée ma box
+                          </button>
+                        </a>
+                      </div>
+                  </div>
+              </div>
+              
+              <hr class="my-5" />
+              <h2 id="personnalise" class="fw-bolder mb-4 bold text-center">Ma box</h2>
+              <section>
+                <form action="flan.html">
+                  <fieldset>
+                    <legend>Ustensile 1</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor1" value="indoor" checked> Oui</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor1" value="outdoor"> Non</label>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Ustensile 2</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor2" value="indoor" checked> Oui</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor2" value="outdoor"> Non</label>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Ustensile 3</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor3" value="indoor" checked> Oui</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor3" value="outdoor"> Non</label>
+                  </fieldset>
+                  <fieldset>
+                    <legend>Matières sèches </legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor4" value="indoor" checked> Oui</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor4" value="outdoor"> Non</label>
+                  </fieldset>
+                  
+                  <fieldset class="last-fieldset">
+                    <legend for="comment" class="bold">Suggestions
+                        <textarea id="bio" name="bio" rows="3" cols="100" placeholder="Une note à nous transmettre?"></textarea>
+                    </label>                
+                  </fieldset>
+    
+                <input type="submit" value="submit">
+                </form>
+              </section>
+          </div>
+      </section>
+ 
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Adresse
+            </h4>
+            <div class="contact_link_box">
+
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  contact@emmiam.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+        </div>
+
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
