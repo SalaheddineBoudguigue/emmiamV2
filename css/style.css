@@ -1067,4 +1067,14 @@ input[type="submit"] {
 input[type="submit"]:hover{
   background-color: rgba(240, 184, 81, 0.562);
 }
+
+.circle-text {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 35%;
+  background-color: #030405; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
